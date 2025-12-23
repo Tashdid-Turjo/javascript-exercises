@@ -1,8 +1,13 @@
-const repeatString = function() {
+str = "";
 
+const repeatString = function(str, times) {
+    for (let i = 0; i < times; i++) {
+        let result += str;
+        return result;
+    }
 };
 
-alert(repeatString('hey', 3));
+console.log(repeatString('hey', 3));
 
 // Do not edit below this line
 module.exports = repeatString;
