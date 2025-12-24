@@ -11,7 +11,7 @@ const removeFromArray = function(arr, removedValue1, removedValue2) {
     return result;
 };
 
-console.log(removeFromArray(["hey", 2, 3, "ho"], "hey", 3));
+console.log(removeFromArray([1, 2, 3], "1", 3));
 
 // Do not edit below this line
 module.exports = removeFromArray;
