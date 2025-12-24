@@ -7,7 +7,7 @@ const sumAll = function(firstNum, secondNum) {
         }   
     return result;
     }
-
+ 
     if((secondNum < firstNum) && (firstNum > 0) && (secondNum > 0)&& (Number.isInteger(firstNum)) && (Number.isInteger(secondNum))) {
         for(let i = secondNum; i <= firstNum; i++) {
             result += i;
