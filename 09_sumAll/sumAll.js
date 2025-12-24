@@ -18,7 +18,7 @@ const sumAll = function(firstNum, secondNum) {
     else return 'ERROR';
 };
 
-console.log(sumAll(2.5, 4));
+console.log(sumAll(10, "90"));
 
 // Do not edit below this line
 module.exports = sumAll;
