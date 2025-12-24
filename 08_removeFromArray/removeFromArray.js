@@ -1,3 +1,5 @@
+// !! N.B: There's 3 arguments. [1, 2, 3, 4]; 7; 2. !!
+
 const removeFromArray = function(arr, removedValue1, removedValue2) {
     let result = [];
 
@@ -9,7 +11,7 @@ const removeFromArray = function(arr, removedValue1, removedValue2) {
     return result;
 };
 
-console.log(removeFromArray([1, "tacos", 3, 4], 7, "tacos"));
+console.log(removeFromArray([1, 2, 3, 4], 7, 2));
 
 // Do not edit below this line
 module.exports = removeFromArray;
