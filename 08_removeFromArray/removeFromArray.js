@@ -1,5 +1,3 @@
-// !! 3 arguments are there now; where for first Test, there was two arguments.
-
 const removeFromArray = function(arr, removedValue1) {
     result = [];
 
