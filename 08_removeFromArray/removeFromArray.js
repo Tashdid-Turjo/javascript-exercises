@@ -1,10 +1,10 @@
-// !! N.B: There are 3 arguments. !!
+// !! N.B: As I used "...args" (rest parameter), thus, now, it doesn't matter how many arguments are there in the console.log part. !!
 
-const removeFromArray = function(arr, removedValue1, removedValue2) {
+const removeFromArray = function(arr, ...args) {
     let result = [];
 
     for(let i = 0; i < arr.length; i++) {
-        if ((arr[i] !== removedValue1) && (arr[i] !== removedValue2)) {
+        if (!args.includes(arr[i])) {
             result.push(arr[i]);
         }
     }
